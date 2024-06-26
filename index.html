@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Infiltrados</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .hero {
+            background-image: url('https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f7e8a59c-740b-40cc-a1f5-2b25b48ec588/b1ccd8e089db67424d355e61cef2fd79bf967e81.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 20px;
+        }
+        .button {
+            margin-top: 20px;
+        }
+        .button a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #e50914;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        .trailer {
+            margin-top: 30px;
+        }
+        .trailer iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+        }
+        .cast {
+            background-color: #222;
+            padding: 50px 20px;
+        }
+        .cast h2 {
+            margin-top: 0;
+        }
+        .cast .cast-member {
+            display: inline-block;
+            margin: 10px;
+            width: 200px;
+        }
+        .cast img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .cast p {
+            margin: 5px 0 0;
+        }
+        .reviews {
+            padding: 50px 20px;
+            background-color: #333;
+        }
+        .reviews h2 {
+            margin-top: 0;
+        }
+        .reviews .review {
+            margin: 20px 0;
+        }
+        .reviews p {
+            margin: 0;
+        }
+        .gallery {
+            padding: 50px 20px;
+        }
+        .gallery h2 {
+            margin-top: 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div>
+            <div class="button">
+                <a href="#trailer">Assista o Trailer</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Sobre o Filme</h2>
+        <p>Billy Costigan, um jovem policial, recebe a missão de se infiltrar na máfia, no grupo comandado por Frank Costello. Billy conquista sua confiança ao mesmo tempo em que Colin Sullivan, um criminoso que atuou na polícia como informante de Costello, também ascende dentro da corporação. Tanto Billy quanto Colin se sentem aflitos devido à vida dupla que levam. Mas, quando a máfia e a polícia descobrem que há um espião entre eles, a vida de ambos passa a correr perigo.</p>
+        <div class="trailer" id="trailer">
+            <iframe src="https://www.youtube.com/embed/seu-video-id" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="cast container">
+        <h2>Principais Atores</h2>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTboo8s8j60nRK1nQ79weFpPvNfFnpS5kAQPJTHDaqiiv3LvJMRKrLfd1jOgqzy-NfmdFznuVk&s=19" alt="Leonardo DiCaprio">
+            <p>Leonardo DiCaprio</p>
+            <p>Billy Costigan</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQG2QwGvII_Zy6nrYFcDnPsT2TcG5uk6xo1cnsQDQARSkKys1QOjslfnPYJH__kv9RQ7cSTGd0_&s=19" alt="Matt Damon">
+            <p>Matt Damon</p>
+            <p>Colin Sullivan</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRLBd2J-jqGWH9pGHw8iNN0PYJoE1i_KEfbIMGXYNFj_1J2dGYmdBv9VVgx54z9b373PbEcOus&s=19" alt="Mark wahlberg">
+            <p>Mark wahlberg</p>
+            <p>Sargento Sean Dignam</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRRw18IbcQB47YhJZOHOxsziUTJUQ3b9JwNJVO5nDLleKwHTeVBp9jiRsBQXN8lKyMGUrY1bs41&s=19" alt="Jack Nicholson">
+            <p>Jack Nicholson</p>
+            <p>Frank Costello</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS_ArrJOCX5vOgkwLBOIf5ouWN5xhbcD2koxLEdsIuiFOVXSby9B4RDVyNpv8ExybwQJjQ71pI&s=19" alt="Vera Farmiga">
+            <p>Vera Farmiga</p>
+            <p>Madolyn Madden</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQZkG8ScwLNiYy49J1jCvbUTL4uxnaXFkOn1xw_LSKxOMv7TVy4qpXgSr5O2YOkxFzjrSuCBwfu&s=19" alt="Martin Sheen">
+            <p>Martin Sheen</p>
+            <p>Oliver Charles Queenan</p>
+        </div>
+        <div class="cast-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77oKBHF16hJRHSszfl5G9wmVdFrAINCYV4yreEWOOej2YSVEVKMUnf50&s=10" alt="Ray Winstone">
+            <p>Ray Winstone</p>
+            <p>Arnold French</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Os Infiltrados. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
